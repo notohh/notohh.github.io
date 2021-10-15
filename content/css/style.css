@@ -9,36 +9,36 @@ body {
 header {
   font-family: 'Secular One', sans-serif;
   font-style: italic;
-  font-size: 120px;
+  font-size: 220px;
   color: #f2f0e6;
   text-align: center;
   text-decoration: line-through;
 }
 
-h1 {
-  font-family: 'Secular One', sans-serif;
-  font-size: 15px;
-  color: #f2f0e6;
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   text-align: center;
-}
+  padding-top: 200px;
+  border: none;
 
-.nav {
-  font-family: 'Secular One', sans-serif;
-  font-size: 15px;
-  color: #f2f0e6;
-  text-align: center;
-}
-
-.img {
-  text-align: center;
-  padding-top: 150px
 }
 
 .fade-in {
-  animation: fadeIn ease 1s;
+  animation: fadeIn ease 5s;
+}
+
+.fade-in-delayed {
+  animation: fadeInDelay ease 10s;
 }
 
 @keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+}
+
+@keyframes fadeInDelay {
    0% {opacity: 0;}
    100% {opacity: 1;}
 }
