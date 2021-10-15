@@ -15,6 +15,10 @@ header {
   text-decoration: underline;
 }
 
+h1 {
+  color: red;
+}
+
 h2 {
   font-family: 'Secular One', sans-serif;
   color: #f2f0e6;
