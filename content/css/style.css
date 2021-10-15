@@ -43,7 +43,7 @@ footer {
 }
 
 .fade-in {
-  animation: fadeIn ease 3s;
+  animation: fadeIn ease 2s;
 }
 
 @keyframes fadeIn {
