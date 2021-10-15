@@ -15,30 +15,29 @@ header {
   text-decoration: line-through;
 }
 
+footer {
+  font-family: 'Secular One', sans-serif;
+  font-style: italic;
+  color: #f2f0e6;
+  text-align: center;
+  margin-top: 320px;
+}
+
 .container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  padding-top: 200px;
+  margin-top: 180px;
   border: none;
 
 }
 
 .fade-in {
-  animation: fadeIn ease 5s;
-}
-
-.fade-in-delayed {
-  animation: fadeInDelay ease 10s;
+  animation: fadeIn ease 3s;
 }
 
 @keyframes fadeIn {
-   0% {opacity: 0;}
-   100% {opacity: 1;}
-}
-
-@keyframes fadeInDelay {
    0% {opacity: 0;}
    100% {opacity: 1;}
 }
