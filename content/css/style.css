@@ -30,7 +30,7 @@ footer {
   font-style: italic;
   color: #f2f0e6;
   text-align: center;
-  margin-top: 320px;
+  margin-top: 350px;
 }
 
 .container {
@@ -38,8 +38,8 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  margin-top: 124px;
-  margin-left: 34px;
+  margin-top: 140px;
+  margin-left: 40px;
 }
 
 .fade-in {
