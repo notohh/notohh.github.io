@@ -19,18 +19,12 @@ h1 {
   color: red;
 }
 
-h2 {
-  font-family: 'Secular One', sans-serif;
-  color: #f2f0e6;
-  text-align: center;
-}
-
 footer {
   font-family: 'Secular One', sans-serif;
   font-style: italic;
   color: #f2f0e6;
   text-align: center;
-  margin-top: 350px;
+  margin-top: 370px;
 }
 
 .container {
@@ -38,7 +32,7 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  margin-top: 140px;
+  margin-top: 210px;
   margin-left: 40px;
 }
 
