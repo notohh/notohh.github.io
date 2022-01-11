@@ -1,51 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 
 body {
-  background: black;
-  margin: 0;
-  font-family: 'Secular One', sans-serif;
+  background: #1f1a23;
+  font-family: "IBM Plex Mono", monospace;
 }
 
-header {
-  font-family: 'Secular One', sans-serif;
-  font-style: italic;
-  font-size: 220px;
-  color: #f2f0e6;
-  text-align: center;
-  text-decoration: underline;
+h1,
+footer,
+p {
+  color: #fec3ce;
 }
 
-h1 {
-  color: red;
+img {
+  height: 7em;
+  width: 7em;
+  border-radius: 50%;
 }
 
 footer {
-  font-family: 'Secular One', sans-serif;
-  font-style: italic;
-  color: #f2f0e6;
   text-align: center;
-  margin-top: 370px;
-}
-
-.container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  margin-top: 180px;
-  margin-left: 40px;
-}
-
-.fade-in {
-  animation: fadeIn ease 2s;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
+  margin-top: 42em;
 }
