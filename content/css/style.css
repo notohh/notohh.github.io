@@ -5,9 +5,7 @@ body {
   font-family: "IBM Plex Mono", monospace;
 }
 
-h1,
-footer,
-p {
+h1 {
   color: #fec3ce;
 }
 
@@ -18,6 +16,11 @@ img {
 }
 
 footer {
+  color: #fec3ce;
   text-align: center;
   margin-top: 42em;
+}
+
+p {
+  color: #fec3ce;
 }
