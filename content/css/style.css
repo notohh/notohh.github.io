@@ -7,20 +7,56 @@ body {
 
 h1 {
   color: #ffb6c1;
-}
-
-img {
-  height: 6.8em;
-  width: 6.8em;
-  border-radius: 30%;
+  text-align: center;
 }
 
 footer {
   color: #ffb6c1;
   text-align: center;
-  margin-top: 42em;
+  margin-top: 38em;
 }
 
 p {
   color: #ffb6c1;
+}
+
+hr {
+  color: #ffb6c1;
+  width: 10%;
+  margin-bottom: 1.8em;
+}
+
+.icons {
+  width: 8.7em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hover {
+  transition: 0.3s ease;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 0.3s ease;
+}
+
+#hover:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 0.3s ease;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+#pfp {
+  height: 6.8em;
+  width: 6.8em;
+  border-radius: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
